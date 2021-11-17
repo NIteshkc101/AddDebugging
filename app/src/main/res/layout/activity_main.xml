@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="16dp"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/accessTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Access Token :" />
+
+        <TextView
+            android:id="@+id/accessTextViewResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiNWRiMWI4OTRkZTU4ZjJkZjI2ZmFmZWFlZDM4YWY5NTRkMmJlNWZiMWMzMmEzMTM2NGFhZmU0ODYwOTcxN2JhNzUyYzM3MjEwMzZhMWYyNmYiLCJpYXQiOjE2MzUzNTU2OTcsIm5iZiI6MTYzNTM1NTY5NywiZXhwIjoxNjY2ODkxNjk3LCJzdWIiOiIyOTEiLCJzY29wZXMiOltdfQ.oAVJkrXX-HMXIdu28hwBUdlAshqs7zGklvHeBgSsH5pRjKULbgs2Cl1EQpRGxfE5UPVZyvo1wSP_lpgPE2ZvWs7tPYwJr7yFfyu9wlGbT9qUvK0yF9L6M11-AtP1nVzA5JsFG0WboztkEvnWZgLYT0XfXwBGLypmEVlGL9yCMUL69TKYbfeF-RinZTfGOqLqSricvoYy6Dv2OT9_erFwxxRSHiUXzaAsk_hciemwjtkXS_OabOXYo_gCDbOWzHd3queWDkwHiWHBffp97vx9O7igks-KNGQm4CCCqGchycwlj6FJqqUcSyY8-f_Y4m-TIPOxn-pwIbr8l5KHib4_itvTCZmFJqkFaWFPW9PIkwpIZOe9lXiEnb8yL_mZS3LL6zLmM8rySu7q6BMouWCo-h8IR2DS32SUD7nuXnP20RKWlm4N77Xar0bQYVoh762aMEHY6L0IF7gcqnAT1UkFnXgbK5VfjM5Q391Nle5iHCZCsj-OWwwtiQX-Kw-o_Y25ywOhb25YgsR3-DrpLbbX0OL06v6esvcbuHUOXZdZKQCo1tuxvCdQ4_6_qMy15KwJf4CWw-e0dxLyxYmulsZOm4pxkDBNt-DbJfgEZiHMf-B3nZnXMkSGr7Laf3v-jN5wxn30QWBkCPB1Kz0WhEy1HbFSlqsLyLhqVXkk5C_pxLA" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="12dp"
+            android:layout_marginStart="1dp"
+            android:background="@color/black"
+            />
+        <TextView
+            android:id="@+id/refreshTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refresh Token :" />
+
+        <TextView
+            android:id="@+id/refreshTextViewResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiNWRiMWI4OTRkZTU4ZjJkZjI2ZmFmZWFlZDM4YWY5NTRkMmJlNWZiMWMzMmEzMTM2NGFhZmU0ODYwOTcxN2JhNzUyYzM3MjEwMzZhMWYyNmYiLCJpYXQiOjE2MzUzNTU2OTcsIm5iZiI6MTYzNTM1NTY5NywiZXhwIjoxNjY2ODkxNjk3LCJzdWIiOiIyOTEiLCJzY29wZXMiOltdfQ.oAVJkrXX-HMXIdu28hwBUdlAshqs7zGklvHeBgSsH5pRjKULbgs2Cl1EQpRGxfE5UPVZyvo1wSP_lpgPE2ZvWs7tPYwJr7yFfyu9wlGbT9qUvK0yF9L6M11-AtP1nVzA5JsFG0WboztkEvnWZgLYT0XfXwBGLypmEVlGL9yCMUL69TKYbfeF-RinZTfGOqLqSricvoYy6Dv2OT9_erFwxxRSHiUXzaAsk_hciemwjtkXS_OabOXYo_gCDbOWzHd3queWDkwHiWHBffp97vx9O7igks-KNGQm4CCCqGchycwlj6FJqqUcSyY8-f_Y4m-TIPOxn-pwIbr8l5KHib4_itvTCZmFJqkFaWFPW9PIkwpIZOe9lXiEnb8yL_mZS3LL6zLmM8rySu7q6BMouWCo-h8IR2DS32SUD7nuXnP20RKWlm4N77Xar0bQYVoh762aMEHY6L0IF7gcqnAT1UkFnXgbK5VfjM5Q391Nle5iHCZCsj-OWwwtiQX-Kw-o_Y25ywOhb25YgsR3-DrpLbbX0OL06v6esvcbuHUOXZdZKQCo1tuxvCdQ4_6_qMy15KwJf4CWw-e0dxLyxYmulsZOm4pxkDBNt-DbJfgEZiHMf-B3nZnXMkSGr7Laf3v-jN5wxn30QWBkCPB1Kz0WhEy1HbFSlqsLyLhqVXkk5C_pxLA" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="12dp"
+            android:layout_marginStart="1dp"
+
+            android:background="@color/black"
+
+
+            />
+        <TextView
+            android:id="@+id/expiresTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expires in :" />
+
+        <TextView
+            android:id="@+id/expiresTextViewResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="dsfsdjfs" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="12dp"
+            android:background="@color/black"
+            android:layout_marginStart="1dp"
+
+
+
+            />
+        <TextView
+            android:id="@+id/tokenTypeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Token Type :" />
+
+        <TextView
+            android:id="@+id/tokenTypeTextViewResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="dsfsdjfs"
+
+            />
+
+    </LinearLayout>
+</ScrollView>
